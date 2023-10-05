@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-exec('print("#pythoniscool\\n")')
+import python_is_cool
