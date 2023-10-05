@@ -2,8 +2,8 @@
 if __name__ == "__main__":
     import sys
     sums = 0
-    i = 0
-    for a in sys.argv:
-        if i > 0:
-            sums += int(a)
-    i += 1
+    
+    for i, arg in enumerate(sys.argv[1:], start=1):
+        sums += int(arg)
+            
+    print(sums)
