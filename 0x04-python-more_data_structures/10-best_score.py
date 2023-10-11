@@ -5,4 +5,4 @@ def best_score(a_dictionary):
         for i in a_dictionary.keys():
             if a_dictionary[i] > a_dictionary.get(best_score):
                 best_score = i
-            return best_score
+        return best_score
