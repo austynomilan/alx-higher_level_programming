@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""Defines a class Square"""
+
+
 class Square:
-    """square"""
-    def __init__(self):
-        """initialize square attributes"""
-        return None
+    """Class that defines properties of square.
+    """
+    pass
